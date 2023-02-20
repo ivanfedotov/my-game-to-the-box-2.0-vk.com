@@ -1,0 +1,30 @@
+{
+    "c2dictionary": true,
+    "data": {
+        "title": "去盒子",
+		"start": "开始",
+		"level": "等级: ",
+		"score": "点数: ",
+		"time": "时间: ",
+		"win": "胜利",
+		"place": "排名位置: ",
+		"s": " 秒",
+		"-": "-",
+		"": "",
+		"rank": "秩: ",
+		"norank": "无题",
+		"runner": "赛跑者",
+		"speedrunner": "极速跑者!",		
+		"superspeedrunner": "超级速度赛跑者!!!",
+		"hunter": "猎人",
+		"achievehunter": "好猎人！",
+		"superachievehunter": "超级猎人！ ！ ！", 
+		"yandexrank": "您在评级中的位置: ",
+		"yandexscore": "最佳时间: ",
+		"authonly": "没地方",
+        "logintext": " 登录\n Yandex.Games",
+		"gameready": "点击方块开始游戏",
+		"gamerestart": "再玩一次",
+		"adv": "选择一种颜色来查看广告"
+    }
+}

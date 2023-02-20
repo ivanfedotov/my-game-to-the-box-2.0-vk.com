@@ -1,0 +1,30 @@
+{
+    "c2dictionary": true,
+    "data": {
+        "title": "KUTUYA",
+		"start": "- başlamak -",
+		"level": "SEVİYE: ",
+		"score": "PUANLAR: ",
+		"time": "Süre: ",
+		"win": "SEN KAZANDIN!!!",
+		"place": "YER: ",
+		"s": " s.",
+		"-": "-",
+		"": "",
+		"rank": "Rütbe: ",
+		"norank": "- rütbe yok -",
+		"runner": "KOŞUCU",
+		"speedrunner": "HIZ KOŞUCUSU!",		
+		"superspeedrunner": "SÜPER HIZLI KOŞUCU!!!",	
+		"hunter": "AVCI",
+		"achievehunter": "İYİ AVCI!",
+		"superachievehunter": "SÜPER AVCI!!!", 
+		"yandexrank": "En iyiler arasındaki yeriniz: ",
+		"yandexscore": "En iyi zaman: ",
+		"authonly": "yer yok",
+        "logintext": " Yandex.Games'e\n giriş yapın",
+		"gameready": "- oyuna başlamak için kareye tıklayın -",
+		"gamerestart": "tekrar oyna",
+		"adv": "Reklamları görüntülemek için bir renk seçin"
+    }
+}

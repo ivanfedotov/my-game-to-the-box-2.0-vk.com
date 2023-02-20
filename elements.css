@@ -1,0 +1,9 @@
+.fonts-lock {
+	/* font-family: Arial; */
+	font-family: cursive; !important
+}
+
+.sound-btn {
+	background-color: transparent;
+	border: 0px solid #000;
+}
