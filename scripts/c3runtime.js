@@ -4487,7 +4487,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Text.Exps.X,
 		C3.Plugins.Text.Exps.Y,
 		C3.Plugins.System.Acts.RestartLayout,
-		C3.Plugins.Touch.Cnds.OnDoubleTapGestureObject,
 		C3.ScriptsInEvents.Actions_Event36_Act1,
 		C3.Plugins.Text.Acts.SetOpacity,
 		C3.ScriptsInEvents.Actions_Event37_Act5,
@@ -4879,14 +4878,6 @@ self.C3_ExpressionFuncs = [
 			const n0 = p._GetNode(0);
 			const v1 = p._GetNode(1).GetVar();
 			return () => n0.ExpObject(v1.GetValue());
-		},
-		p => {
-			const n0 = p._GetNode(0);
-			return () => (n0.ExpObject() - 50);
-		},
-		p => {
-			const n0 = p._GetNode(0);
-			return () => (n0.ExpObject() - 200);
 		},
 		() => "Stores",
 		() => "YaGames",
