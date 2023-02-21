@@ -1,0 +1,10 @@
+{
+	"name": "To the BOX",
+	"short_name": "To the BOX",
+	"description": "\"To the box\" is a kind intellectual platform game for everyone. Skillfully jump on the shelves to complete the level and eat all the delicious red treats.",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#ffffff",
+	"icons": []
+}

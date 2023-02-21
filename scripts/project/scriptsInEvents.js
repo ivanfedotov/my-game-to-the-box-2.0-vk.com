@@ -71,7 +71,7 @@ const scriptsInEvents = {
 		});
 	},
 
-	async Actions_Event37_Act5(runtime, localVars)
+	async Actions_Event39_Act5(runtime, localVars)
 	{
 		// Инициализация
 		vkBridge.send("VKWebAppInit", {});
@@ -97,7 +97,7 @@ const scriptsInEvents = {
 			.catch((error) => { console.log(error); });
 	},
 
-	async Actions_Event40_Act2(runtime, localVars)
+	async Actions_Event42_Act2(runtime, localVars)
 	{
 		if (runtime.globalVars.STORE == "YaGames") {
 		
@@ -178,7 +178,7 @@ const scriptsInEvents = {
 		}
 	},
 
-	async Actions_Event44_Act1(runtime, localVars)
+	async Actions_Event46_Act1(runtime, localVars)
 	{
 		YaGames.init().then(ysdk => {
 		
@@ -239,7 +239,7 @@ const scriptsInEvents = {
 		});
 	},
 
-	async Actions_Event48_Act1(runtime, localVars)
+	async Actions_Event50_Act1(runtime, localVars)
 	{
 		// Показать рекламу
 		vkBridge.send('VKWebAppShowNativeAds', { ad_format: 'interstitial' })
@@ -252,42 +252,42 @@ const scriptsInEvents = {
 		  .catch((error) => { console.log(error); });
 	},
 
-	async Actions_Event50_Act1(runtime, localVars)
+	async Actions_Event52_Act1(runtime, localVars)
 	{
 		runtime.objects.Player.getFirstInstance().colorRgb = runtime.globalVars.COLOR.split(',');
 	},
 
-	async Actions_Event51_Act1(runtime, localVars)
+	async Actions_Event53_Act1(runtime, localVars)
 	{
 		runtime.globalVars.COLOR = runtime.objects.ColorGreen.getFirstInstance().colorRgb;
 	},
 
-	async Actions_Event52_Act1(runtime, localVars)
+	async Actions_Event54_Act1(runtime, localVars)
 	{
 		runtime.globalVars.COLOR = runtime.objects.ColorPink.getFirstInstance().colorRgb;
 	},
 
-	async Actions_Event53_Act1(runtime, localVars)
+	async Actions_Event55_Act1(runtime, localVars)
 	{
 		runtime.globalVars.COLOR = runtime.objects.ColorWhite.getFirstInstance().colorRgb;
 	},
 
-	async Actions_Event54_Act1(runtime, localVars)
+	async Actions_Event56_Act1(runtime, localVars)
 	{
 		runtime.globalVars.COLOR = runtime.objects.ColorBlack.getFirstInstance().colorRgb;
 	},
 
-	async Actions_Event55_Act1(runtime, localVars)
+	async Actions_Event57_Act1(runtime, localVars)
 	{
 		runtime.globalVars.COLOR = runtime.objects.ColorYellow.getFirstInstance().colorRgb;
 	},
 
-	async Actions_Event56_Act1(runtime, localVars)
+	async Actions_Event58_Act1(runtime, localVars)
 	{
 		runtime.globalVars.COLOR = runtime.objects.ColorPurple.getFirstInstance().colorRgb;
 	},
 
-	async Actions_Event58_Act1(runtime, localVars)
+	async Actions_Event60_Act1(runtime, localVars)
 	{
 		// INIT YaGames
 		YaGames.init().then(ysdk => {
@@ -313,7 +313,7 @@ const scriptsInEvents = {
 		});
 	},
 
-	async Actions_Event59_Act1(runtime, localVars)
+	async Actions_Event61_Act1(runtime, localVars)
 	{
 		// Показать рекламу
 		vkBridge.send('VKWebAppShowNativeAds', { ad_format: 'reward' })
@@ -327,7 +327,7 @@ const scriptsInEvents = {
 			.catch((error) => { console.log(error); });
 	},
 
-	async Actions_Event60_Act1(runtime, localVars)
+	async Actions_Event62_Act1(runtime, localVars)
 	{
 		runtime.objects.Player.getFirstInstance().colorRgb = runtime.globalVars.COLOR.split(',');
 	}
